@@ -1,0 +1,15 @@
+# This file lists the files and directories to exclude from the Docker image.
+# Exclude the virtual environment directory
+venv/
+# Exclude the local development settings file
+config/settings_local.py
+# Exclude the media files directory
+media/
+# Exclude the static files directory
+static/
+# Exclude the database file
+db.sqlite3
+# Exclude the Python bytecode files
+*.pyc
+# Exclude the Docker image file
+manufacturing-rp-saas.tar.gz

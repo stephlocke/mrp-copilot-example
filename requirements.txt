@@ -1,0 +1,11 @@
+django
+azure-appservice
+django-bootstrap4
+django-crispy-forms
+django-storages
+psycopg2-binary
+django-extensions
+django-debug-toolbar
+azure-keyvault-secrets
+azure-identity
+azure-storage-blob
