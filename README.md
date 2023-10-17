@@ -2,6 +2,13 @@
 
 This is a web-based application built using Django, Bootstrap, and various Azure services. The application provides functionality for managing various aspects of manufacturing, including products, bills of materials, work orders, purchase orders, inventory, sales orders, invoices, payments, customers, suppliers, employees, work centers, routing, production orders, production order lines, and production order work orders.
 
+<!-- mermaid erdiagram of key entities -->
+```mermaid
+erDiagram
+  product ||--o{ bill_of_material : contains
+  product ||--o{ work_order : contains
+  product ||--o{ purchase_order_line : contains
+```
 ## Technologies Used
 
 - Django
